@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+https://registry.terraform.io/modules/arivictor/storage-monitor/google
+
 This Terraform module creates a bucket monitoring solution to periodically query specified bucket paths and return the total object count. If an object count for a given subfolder is greater than the threshold specified in the module a log will be created that is picked up by an alert policy.
 
 ## Features
